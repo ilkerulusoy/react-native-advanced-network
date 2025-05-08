@@ -55,11 +55,11 @@ export class BaseNetworkRequestable implements NetworkRequestable {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), this.timeoutMs);
       
-      // Prepare request options
-      const options: RequestOptions = {
+      // Create request options
+      const options: RequestInit = {
         method,
         headers: { ...this.defaultHeaders, ...headers },
-        signal: controller.signal
+        signal: controller.signal as AbortSignal
       };
       
       // Add body if provided

@@ -1,0 +1,26 @@
+# Source files
+src/
+
+# Tests
+tests/
+jest.config.js
+.jest/
+
+# Development files
+.git
+.github
+.gitignore
+.eslintrc.js
+.eslintignore
+tsconfig.json
+
+# Node modules
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+*.log

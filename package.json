@@ -19,8 +19,16 @@
     "fallback",
     "authentication"
   ],
-  "author": "",
+  "author": "Ilker Ulusoy",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilkerulusoy/react-native-advanced-network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilkerulusoy/react-native-advanced-network/issues"
+  },
+  "homepage": "https://github.com/ilkerulusoy/react-native-advanced-network#readme",
   "devDependencies": {
     "@babel/core": "^7.22.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
